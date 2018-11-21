@@ -1,0 +1,40 @@
+body{
+  background: #ddd;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background:blue;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+.header h1{
+  margin: 0;
+}
+
+.contentArea{
+  max-width: 980px;
+  margin: 0 auto 40px;
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.leftPane{
+  float: left;     /* important to note */
+  width: 65%;
+}
+
+.rightPane{
+  float: right;        /* important to note */
+  width: 30%;
+
+}
+
+.leftPane, .rightPane{
+  padding: 0;
+  box-sizing: border-box;
+  border: 3px double #666;
+  min-height: 250px;
+}
